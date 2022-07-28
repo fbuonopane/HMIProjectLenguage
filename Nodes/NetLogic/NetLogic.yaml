@@ -1,0 +1,27 @@
+Name: NetLogic
+Type: FolderType
+Children:
+- Name: MyDesignSampleScript
+  Type: NetLogic
+  Children:
+  - Name: BehaviourStartPriority
+    Type: BehaviourStartPriorityVariableType
+    DataType: Byte
+    Value: 180
+  - Class: Method
+    Name: Crea100Variabili
+  - Class: Method
+    Name: CreaLabel
+  - Class: Method
+    Name: ModificaLabel
+  - Class: Method
+    Name: ModificaValNativa
+  - Class: Method
+    Name: AggiungiButton
+  - Class: Method
+    Name: CancellaVariabiliDispari
+- Name: RuntimeNetLogic1
+  Type: NetLogic
+  Children:
+  - Class: Method
+    Name: CreaLabel

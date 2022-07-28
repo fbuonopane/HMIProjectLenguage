@@ -1,0 +1,53 @@
+Name: Users
+Id: g=1b7dc8c24e82e0e6390e6500c8732f49
+Type: FolderType
+Children:
+- Name: Guest
+  Id: g=e039bc6e91b6550483ee814ffbdf412b
+  Type: UserType
+- Name: Italiano
+  Id: g=5e470d64128e2c7da13d7ac3f030f575
+  Type: UserType
+  Children:
+  - Name: LocaleIds
+    Id: g=e9c8afb2ccf653874d1f74ae24feb85b
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["it-IT"]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=850e9b03f5f7838d561db00ee239d9e8
+  - Name: Languages
+    Id: g=d17c32057024204b3d19c0b079a7d801
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["it-IT"]
+- Name: Inglese
+  Id: g=2c25c5b8ee3cbf345a0570a81b85066b
+  Type: UserType
+  Children:
+  - Name: Languages
+    Id: g=a0ec68e01ccd3e331aba4b0a1ac4cac9
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]
+  - Class: Reference
+    Type: HasGroup
+    Target: g=107b5300f179b328dfb521dcf609a1de
+  - Name: LocaleIds
+    Id: g=5fbd4db6f5ed109751fe1547e43b0ef2
+    Type: BaseVariableType
+    DataType: LocaleId
+    ReferenceType: HasProperty
+    ValueRank: OneDimension
+    ArrayDimensions: [0]
+    Value: ["en-US"]

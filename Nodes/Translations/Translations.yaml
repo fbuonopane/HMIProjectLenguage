@@ -1,0 +1,31 @@
+Name: Translations
+Type: FolderType
+Children:
+- Name: LocalizationDictionary1
+  Type: LocalizationDictionary
+  DataType: String
+  ValueRank: OneOrMoreDimensions
+  ArrayDimensions: [0,0]
+  Value: 
+   {
+    "Type": 12,
+    "Dimensions": [16,3],
+    "Body": [
+     "","en-US","it-IT",
+     "Label1","Label1Eng","Testo1Ita",
+     "Chiave","Chiave1","",
+     "Label2","Label2Eng","Testo2Ita",
+     "Inglese","Inglese","",
+     "Italiano","Italiano","",
+     "Login","Login","",
+     "Logout","Logout","",
+     "New password","New password","",
+     "Confirm password","Confirm password","",
+     "Change password","Change password","",
+     "Old password","Old password","",
+     "Password","Password","",
+     "Your password is expired. Please enter a new one","Your password is expired. Please enter a new one","",
+     "Test ","\u0018","",
+     "{0:f2}","{0:f2}",""
+    ]
+   }
